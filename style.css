@@ -1,0 +1,55 @@
+/*Selector de nombre */
+body{
+    /*fondo de color para todo el cuerpo del sitio */
+    background-color: #59baa9;
+}
+h1{
+    /*Color de letra */
+    color: #613860;
+}
+p{
+    /*Tamaño de letra */
+    font-size: 20px;
+    /*Tipo de letra*/
+    font-family: verdana;
+}
+h3{
+    color: #d8f171;
+    font-family:  Arial;
+    /*Tamaño de letra*/
+    font-size: 20px;
+    /*Para entrar el texto_titulo*/
+    text-align: center;
+    /*Forma para texto*/
+    border: 5px solid #40122c;
+    border-radius: 20px;
+    background: fixed #40122c;
+
+}
+/*Selector de clase (class) */
+.Genero{
+    color: blanchedalmond;
+}
+/*Selector de id (algo unico*/
+#imagenMikasa{
+    /*medidas cm, mm, pl, (px, em, %)*/
+    border-radius: 100px;
+    /*Ancho*/
+    width: 1000px;
+    /*Alto*/
+    height: 500px;
+    /*borde para imagen*/
+    border: solid;
+    color: chocolate;
+}
+.makizenin{
+    border-radius: 300px;
+    border: solid;
+    color: blueviolet;
+}
+/*Paletas de colores*/
+/*.color1 { #40122c };
+.color2 { #656273 };
+.color3 { #59baa9 };
+.color4 { #d8f171 };
+.color5 { #fcffd9 };*/
