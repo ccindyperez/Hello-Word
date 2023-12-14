@@ -5,13 +5,23 @@ body{
 }
 h1{
     /*Color de letra */
-    color: #613860;
+    color: #660860;
+    font-size: 50px;
+    text-align: center;
 }
-p{
+
+.containerp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancion{
     /*Tamaño de letra */
-    font-size: 20px;
+    font-size: 30px;
     /*Tipo de letra*/
-    font-family: verdana;
+    font-family: "consolas";
+    text-align: center;
 }
 h3{
     color: #d8f171;
@@ -21,9 +31,9 @@ h3{
     /*Para entrar el texto_titulo*/
     text-align: center;
     /*Forma para texto*/
-    border: 5px solid #40122c;
+    border: 5px solid #8a034d;
     border-radius: 20px;
-    background: fixed #40122c;
+    background: fixed #8a034d;
 
 }
 /*Selector de clase (class) */
@@ -42,6 +52,20 @@ h3{
     border: solid;
     color: chocolate;
 }
+
+.containerm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+  }
+
 .makizenin{
     border-radius: 300px;
     border: solid;
